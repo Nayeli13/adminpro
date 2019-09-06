@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+        <router-outlet></router-outlet>
         <div id="main-wrapper">
                
             <app-header></app-header>
@@ -16,9 +17,11 @@
                 <div class="container-fluid">
                         <app-breadcrumbs></app-breadcrumbs>
                 </div>  
+                <router-outlet></router-outlet>
             </div>
+          
            
         </div>
-        <router-outlet></router-outlet>
+
 </body>
 </html>
